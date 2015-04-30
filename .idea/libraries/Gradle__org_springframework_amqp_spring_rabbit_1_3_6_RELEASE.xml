@@ -4,8 +4,6 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/1.3.6.RELEASE/911907e1925b28d05e2a121bdbb3d3e734aa5cdd/spring-rabbit-1.3.6.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ideaLibSources/spring-rabbit-1.3.6.RELEASE-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>

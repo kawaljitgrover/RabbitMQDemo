@@ -13,8 +13,6 @@ import java.util.concurrent.TimeUnit;
 public class TestRabbit {
     @Autowired
     private RabbitTemplate rabbitTemplate;
-    @Autowired
-    private Receiver receiver;
 
     public void sendStringMessage() throws InterruptedException {
         System.out.println("Waiting five seconds...");
