@@ -21,7 +21,6 @@ public class TestRabbit {
         Thread.sleep(5000);
         System.out.println("Sending message...");
         rabbitTemplate.convertAndSend(RabbitMQDemoConfig.queueName, "Hello from RabbitMQ!");
-        receiver.getLatch().await(10000, TimeUnit.MILLISECONDS);
     }
 
     public void sendMessage() throws InterruptedException {
@@ -34,7 +33,6 @@ public class TestRabbit {
                 .setCorrelationId("something".getBytes())
                 .build();
         rabbitTemplate.send(RabbitMQDemoConfig.queueName, message);
-        receiver.getLatch().await(10000, TimeUnit.MILLISECONDS);
     }
 
 
